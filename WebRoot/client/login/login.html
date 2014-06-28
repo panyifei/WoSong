@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+html{height: 100%;}
+body{margin: 0px;height: 100%;}
+.login-back {
+	height: 400px;
+	width: 650px;
+	position: relative;
+	left: 300px;
+	top: 150px;
+	right: 200px;
+	bottom: 200px;
+	background: #000000;
+	border-radius: 10px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+
+.login-table {
+	position: absolute;
+	height: 400px;
+	width: 380px;
+	background-color: #F5F5F5;
+	left: 570px;
+	top: 150px;
+	right: 200px;
+	bottom: 200px;
+	text-align: center;
+	border-radius: 10px 10px 10px 0;
+}
+.login-header {
+	border-radius: 10px 10px 0 0;
+	background-color: #3C80AF;
+	position: absolute;
+	width: 380px;
+	height: 125px;
+}
+.login-header-a {
+	position: absolute;
+	height: 34px;
+	width: 150px;
+	background-color: #0FF;
+	top: 33px;
+	padding-top: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif;
+	border-radius: 10px;
+	z-index: 2;
+	left: 116px;
+}
+.a {
+	position: absolute;
+	left: 312px;
+	top: 253px;
+}
+.text {
+	font-family: "Helvetica Neue",Helvetica,Arial,'Microsoft YaHei',sans-serif;
+	position: absolute;
+	width: 195px;
+	height: 31px;
+	border-radius: 7px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	padding: 4px 6px;
+}
+.btn-denglu {
+	font-family: "Helvetica Neue",Helvetica,Arial,'Microsoft YaHei',sans-serif;
+	position: absolute;
+	width: 97px;
+	height: 37px;
+	left: 182px;
+	top: 191px;
+	border-radius: 7px;
+	background-color: #2BC5E7;
+}
+.login-form {
+	position: absolute;
+	left: -42px;
+	top: 118px;
+	right: 50px;
+	bottom: 50px;
+	width: 387px;
+}
+
+</style>
+</head>
+
+<body background="picture/backq.jpg">
+<div class="login-back">
+
+    
+</div>
+<div class="login-table">
+
+<div class="login-form">
+<form id="form1" name="form1" method="post" action="/adminLogin/doLogin">
+<table width="256" height="297" border="0">
+  <tr>
+    <td height="75" ><label for="textfield"></label>
+      <input name="admin_name" type="text" class="text" id="textfield" placeholder="ID" /></td>
+  </tr>
+  <tr>
+    <td ><label for="textfield2"></label>
+      <input name="password" type="password" class="text" id="textfield2" placeholder="密码"/></td>
+      </tr>
+      <tr>
+      <td height="132" >
+      <input name="" type="submit" class="btn-denglu" value="登录" />
+      </td></tr>
+</table>
+
+
+</form>
+<a href="forgetPassword.html" class="a" >忘记密码</a>
+</div>
+<div class="login-header">
+<a href="/register" class="login-header-a">注册</a>
+</div>
+
+</div>
+
+
+</body>
+</html>
